@@ -4,7 +4,7 @@ def change_python():
     holder = []
     final = []
     
-    # Take in the snetence provided as string
+    # Take in the sentence provided as string
     word = input("Please enter your sentence: ")
     # Convert string to a list of char
     word = list(word)
