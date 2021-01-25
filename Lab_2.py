@@ -5,14 +5,14 @@ def change_python():
     final = []
     
     # Take in the sentence provided as string
-    word = input("Please enter your sentence: ")
+    sentence = input("Please enter your sentence: ")
     # Convert string to a list of char
-    word = list(word)
+    sentence = list(sentence)
     # Add a space to end to mark end of sentence
-    word.append(' ')
+    sentence.append(' ')
     # Run through full list
-    for i in word:
-           # If space convert word holder list to one word and add to final list
+    for i in sentence:
+           # If space convert sentence holder list to one word and add to final list
            if i == ' ':
                holder = ''.join(holder)
                final.append(holder)
